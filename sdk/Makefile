@@ -65,3 +65,5 @@ all: build_sdk
 include $(HOME_TREE)/mak_common.inc
 
 clean: clean_sdk
+
+install: all

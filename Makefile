@@ -43,3 +43,8 @@ all: make_subs
 include $(HOME_TREE)/mak_common.inc
 
 clean: make_subs
+
+install: all
+	cp $(SDK_TARGET) /usr/lib
+	cp sdk/include/* /usr/include
+

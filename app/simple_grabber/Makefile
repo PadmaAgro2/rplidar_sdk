@@ -34,3 +34,5 @@ all: build_app
 include $(HOME_TREE)/mak_common.inc
 
 clean: clean_app
+
+install: all

@@ -28,3 +28,5 @@ all: make_subs
 include $(HOME_TREE)/mak_common.inc
 
 clean: make_subs
+
+install: all
